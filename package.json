@@ -1,0 +1,24 @@
+{
+  "name": "tdd-js",
+  "version": "1.0.0",
+  "description": "JS com TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jejessica/js-tdd"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Jessica Maria <jmd.sants@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jejessica/js-tdd"
+  },
+  "homepage": "https://github.com/jejessica/js-tdd"
+}
