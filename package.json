@@ -21,5 +21,8 @@
     "url": "https://github.com/jejessica/js-tdd"
   },
   "homepage": "https://github.com/jejessica/js-tdd",
-  "dependencies": {}
- }
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
