@@ -4,6 +4,8 @@
   "description": "JS com TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +25,7 @@
   "homepage": "https://github.com/jejessica/js-tdd",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.4.0"
+    "eslint": "^7.4.0",
+    "husky": "^4.2.5"
   }
 }
