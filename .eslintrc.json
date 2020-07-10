@@ -1,11 +1,14 @@
 {
     "env": {
-        "es2020": true
-    },
-    "parserOptions": {
-        "ecmaVersion": 11,
-        "sourceType": "module"
-    },
-    "rules": {
-    }
-}
+       "mocha": true
+     },
+     "plugins": [
+       "mocha",
+       "chai-friendly"
+     ],
+     "rules": {
+       "mocha/no-exclusive-tests": "error",
+       "no-unused-expressions": 0,
+       "chai-friendly/no-unused-expressions": 2
+     }
+  }

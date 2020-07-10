@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --watch"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,9 @@
   "homepage": "https://github.com/jejessica/js-tdd",
   "dependencies": {},
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^7.4.0",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "mocha": "^8.0.1"
   }
 }
